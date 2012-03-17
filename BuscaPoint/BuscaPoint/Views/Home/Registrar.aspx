@@ -6,6 +6,8 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
+@viewData["Message"]
 <script language="javascript" type="text/javascript" src="/js/registrar.js"></script>
 
 <style type="text/css">
@@ -191,7 +193,7 @@
 
 		</div>
 	</div>
-<form id='frm_registrar' name='frm_registrar' action='Registrar'>
+<form id='frm_registrar' name='frm_registrar' action='Registrar' method="POST">
 <table width='100%' cellpadding='0' cellspacing='0' style='margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;'>
 	<tr>
 		<td height='40px' cellpadding='0' cellspacing='0' align='center'>
