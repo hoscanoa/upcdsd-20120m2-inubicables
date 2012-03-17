@@ -18,8 +18,13 @@ namespace BuscaPoint.Controllers
 
         public ActionResult Registrar()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            return View();
+        }
 
+        [HttpPost]
+        public ActionResult Registrar(string txt_nombres)
+        {
+            ViewData["Message"] = txt_nombres;                       
             return View();
         }
 
