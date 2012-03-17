@@ -63,7 +63,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Asesores.svc" />
+    <Content Include="BuscaPoint.svc" />
     <Content Include="ILogo.svc" />
     <Resource Include="Dominio\Asesor.hbm.xml" />
     <Resource Include="Dominio\Sede.hbm.xml" />
@@ -76,12 +76,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Asesores.svc.cs">
-      <DependentUpon>Asesores.svc</DependentUpon>
+    <Compile Include="BuscaPoint.svc.cs">
+      <DependentUpon>BuscaPoint.svc</DependentUpon>
     </Compile>
     <Compile Include="Dominio\Asesor.cs" />
     <Compile Include="Dominio\Sede.cs" />
-    <Compile Include="IAsesores.cs" />
+    <Compile Include="IBuscaPoint.cs" />
     <Compile Include="ILogo.svc.cs">
       <DependentUpon>ILogo.svc</DependentUpon>
     </Compile>
