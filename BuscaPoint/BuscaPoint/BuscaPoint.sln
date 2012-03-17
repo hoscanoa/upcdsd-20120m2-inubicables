@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaPoint", "BuscaPoint.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaPoint WebService", "..\folder\LabSOAP\WS\AplicacionSOAP\AplicacionSOAP\BuscaPoint WebService.csproj", "{07E0F1E0-9E10-4FD2-9BF2-384A3C4FAFB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaPoint Test", "..\BuscaPoint Test\BuscaPoint Test.csproj", "{FBA1FDD8-6B38-408A-909C-F060D8F3C234}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4121EED7-8CE6-46B7-81A4-758E282790C7}"
 	ProjectSection(SolutionItems) = preProject
 		BuscaPoint.vsmdi = BuscaPoint.vsmdi
@@ -35,10 +33,6 @@ Global
 		{07E0F1E0-9E10-4FD2-9BF2-384A3C4FAFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E0F1E0-9E10-4FD2-9BF2-384A3C4FAFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E0F1E0-9E10-4FD2-9BF2-384A3C4FAFB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FBA1FDD8-6B38-408A-909C-F060D8F3C234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBA1FDD8-6B38-408A-909C-F060D8F3C234}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBA1FDD8-6B38-408A-909C-F060D8F3C234}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FBA1FDD8-6B38-408A-909C-F060D8F3C234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
