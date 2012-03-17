@@ -9,7 +9,7 @@ using AplicacionSOAP.Dominio;
 namespace AplicacionSOAP
 {
     [ServiceContract]
-    public interface IBuscaPoint    
+    public interface IBuscaPointBusiness    
     {
         [OperationContract]
         Asesor CrearAsesor(string nombre, string correo, int sede);
