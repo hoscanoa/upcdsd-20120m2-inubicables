@@ -80,20 +80,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="img\add-icon.gif" />
     <Content Include="img\banner1.jpg" />
     <Content Include="img\BuscaPointMapa.png" />
+    <Content Include="img\busqueda_map_hotels.JPG" />
+    <Content Include="img\fb_icon.JPG" />
     <Content Include="img\flecha-abajo-fb.png" />
     <Content Include="img\foto_usr1.jpg" />
     <Content Include="img\foto_usr2.jpg" />
     <Content Include="img\foto_usr3.jpg" />
+    <Content Include="img\fuckencio_usr_pablo.JPG" />
+    <Content Include="img\icono-usuarios.gif" />
+    <Content Include="img\IconoCerrar.gif" />
+    <Content Include="img\icono_ayuda.gif" />
+    <Content Include="img\icono_cerrar.gif" />
+    <Content Include="img\Icono_check.gif" />
     <Content Include="img\icon_lupa1.gif" />
+    <Content Include="img\ico_ayuda.gif" />
     <Content Include="img\like-fb.png" />
     <Content Include="img\Lima-rolls.jpg" />
     <Content Include="img\logo-la-mar.gif" />
+    <Content Include="img\logo_1_disco_miraflores.JPG" />
+    <Content Include="img\logo_3_disco_miraflores.JPG" />
     <Content Include="img\pios-chicken.jpg" />
     <Content Include="img\right.png" />
     <Content Include="img\stars.png" />
     <Content Include="img\wasabi-logo1.png" />
+    <Content Include="js\registrar.js" />
     <Content Include="Views\Home\Registrar.aspx" />
     <Content Include="Views\Home\Search.aspx" />
     <Content Include="Web.config" />
@@ -129,6 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\SearchSite.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

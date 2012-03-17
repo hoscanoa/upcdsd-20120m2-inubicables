@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/SearchSite.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
     .:: BuscaPoint - Todos los sitios que necesites y más ::.
@@ -9,11 +9,11 @@
 
 	<div class='centrar' id='container' name='container' style='display:none'>
 		<div id='popup_buscar' style='z-index:333;background-color:#FFFF99;width:500px;height:300px;margin-left:-8px;margin-right:-305px;margin-top:-10px;margin-bottom:-10px;'>
-			<form id='form_buscar' name='form_buscar' action='search.htm'>
+			<form id='form_buscar' name='form_buscar' action='Home/search'>
 			<table width='100%' >
 				<tr>
 					<td colspan='3' height='25px' align='right'>
-						<img src='img/iconoCerrar.gif' onclick="javascript:document.all.container.style.display='none';">
+						<img src='/img/iconoCerrar.gif' onclick="javascript:document.all.container.style.display='none';">
 					</td>
 				</tr>
 				<tr>
@@ -129,7 +129,7 @@
 						&nbsp;
 					</td>
 					<td width='30%' style='font-family:"Verdana";font-size:14px;font-color:#3333CC;'>
-						<b>BuscaPoint&nbsp;</b><a href='index.htm'><img src="img/icon_lupa1.gif" border="0"></a>
+						<b>BuscaPoint&nbsp;</b><a href='index.htm'><img src="/img/icon_lupa1.gif" border="0"></a>
 						&nbsp;&nbsp;<input type='button' id='btn_buscar' name='btn_buscar' value='Busca más points!' onclick="javascript:document.all.container.style.display='inline';">&nbsp;
 					</td>
 					<td width='45%' style='font-family:"Verdana";font-size:10px;font-color:#3333CC'>
@@ -166,7 +166,7 @@
 									<b>Valoración</b></a>
 								</td>
 								<td width='68%' style='font-family:"Verdana";font-size:14px;color:#3333CC'>
-									<img src='img/stars.png'></img>
+									<img src='/img/stars.png'></img>
 								</td>
 							</tr>
 						</table>
@@ -179,7 +179,7 @@
 							<tr>
 								<td rowspan='5'>
 									<a href='http://www.facebook.com/severus.girl' >
-										<img src='img/fuckencio_usr_pablo.jpg' border='0'>
+										<img src='/img/fuckencio_usr_pablo.jpg' border='0'>
 									</a>
 								</td>
 							</tr>
@@ -200,7 +200,7 @@
 							</tr>
 							<tr>
 								<td style='font-family:"Verdana";font-size:10px;color:#3333CC;' >
-									<img src='img/fb_icon.jpg' border='0'> A 50 personas les gusta
+									<img src='/img/fb_icon.jpg' border='0'> A 50 personas les gusta
 								</td>
 							</tr>
 							<tr>
@@ -229,7 +229,7 @@
 							<tr>
 								<td rowspan='5' width='40%' align='center'>
 									<a href='http://sapporo.com.pe/' >
-										<img src='img/logo_1_disco_miraflores.jpg' border='0'>
+										<img src='/img/logo_1_disco_miraflores.jpg' border='0'>
 									</a>
 								</td>
 							</tr>
@@ -299,7 +299,7 @@
 							<tr>
 								<td rowspan='5' width='40%' align='center' style='font-family:"Verdana";font-size:10px;color:#000000;'>
 									<a href='http://sapporo.com.pe/' >
-										<img src='img/logo_3_disco_miraflores.jpg' border='0'>
+										<img src='/img/logo_3_disco_miraflores.jpg' border='0'>
 									</a>
 								</td>
 							</tr>
@@ -400,7 +400,7 @@
 			<table width='800px' height='100%' style='border-style:solid;border-color:black;border-width:1px' bgcolor='white'>
 				<tr>
 					<td>
-						<img src='img/busqueda_map_hotels.jpg'>
+						<img src='/img/busqueda_map_hotels.jpg'>
 					</td>
 				</tr>
 			</table>
