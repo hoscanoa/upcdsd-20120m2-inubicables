@@ -89,12 +89,10 @@
     <Compile Include="Dominio\Servicio_Empresa.cs" />
     <Compile Include="Dominio\Usuario.cs" />
     <Compile Include="IBuscaPoint.cs" />
-    <Compile Include="Persistencia\AsesorDAO.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\UsuarioDAO.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
-    <Compile Include="Persistencia\SedeDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
