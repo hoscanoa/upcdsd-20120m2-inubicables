@@ -9,7 +9,7 @@ using AplicacionSOAP.Dominio;
 
 namespace AplicacionSOAP
 { 
-    public class Asesores : IAsesores
+    public class Asesores : IBuscaPoint
     {
         private AsesorDAO asesorDAO = null;
         private AsesorDAO AsesorDAO 
